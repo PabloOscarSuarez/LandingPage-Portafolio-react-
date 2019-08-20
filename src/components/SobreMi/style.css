@@ -1,0 +1,41 @@
+#sobremi h3 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 5%;
+}
+
+.contenedor-sobre-mi div p {
+  color: black;
+}
+
+.contenedor-sobre-mi {
+  display: flex;
+  justify-content: space-around;
+}
+
+.descripcion,
+.computadora {
+  width: 50%;
+}
+
+.descripcion a {
+  padding: 12px;
+  background: rgb(5, 0, 85);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 0, 85, 1) 7%,
+    rgba(75, 168, 181, 0.022846638655462215) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 128px;
+  display: inline-block;
+  color: aliceblue;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.descripcion .booton {
+  text-align: center;
+  margin-top: 5%;
+}

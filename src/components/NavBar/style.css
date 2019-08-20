@@ -1,0 +1,63 @@
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+header {
+  background: linear-gradient(
+      90deg,
+      rgba(5, 0, 85, 1) 7%,
+      rgba(75, 168, 181, 0.022846638655462215) 100%,
+      rgba(0, 212, 255, 1) 100%
+    ),
+    url(../../media/imagenes/fondo.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+#contenedor-titulo {
+  display: flex;
+  justify-content: center;
+  margin: 18vh auto;
+}
+#cabecera {
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+  color: aliceblue;
+  margin-bottom: 4%;
+}
+h3 {
+  font-size: 25px;
+  color: aliceblue;
+  margin-top: 0%;
+}
+
+#cabecera a {
+  padding: 12px;
+  background: rgb(5, 0, 85);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 0, 85, 1) 7%,
+    rgba(75, 168, 181, 0.022846638655462215) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 128px;
+  display: inline-block;
+  color: aliceblue;
+  border-radius: 50%;
+}
+
+.contenedor p {
+  color: aliceblue;
+  font-size: 20px;
+}

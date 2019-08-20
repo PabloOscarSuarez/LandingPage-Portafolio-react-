@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.contenedor {
+  margin: auto;
+  max-width: 1280px;
+  width: 90%;
+}
