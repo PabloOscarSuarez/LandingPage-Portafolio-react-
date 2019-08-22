@@ -1,0 +1,31 @@
+#trabajar-conmigo .contenedor h3 {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: -5%;
+}
+
+#trabajar-conmigo {
+  margin-top: 15%;
+}
+.trabajar-conmigo-contenido {
+  margin-top: 12%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.secciones p,
+h4 {
+  text-align: center;
+  color: black;
+}
+
+.secciones {
+  width: 25%;
+  text-align: center;
+}
+
+h4 {
+  font-size: 25px;
+}
